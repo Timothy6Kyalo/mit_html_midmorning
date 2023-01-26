@@ -1,0 +1,25 @@
+p{
+  color: blue;
+  font-family: "Century Schoolbook L";
+  font-size: 16px;
+}
+button{
+  padding: revert;
+  alignment: center;
+  font-family: KacstNaskh;
+  font-size: 19px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+th,td{
+  border: 3px solid black;
+  font-family: KacstTitle;
+  text-align: center;
+  color: cornflowerblue;
+  padding: 10px;
+}
+tr:nth-child(even){
+  background-color: darkslategrey ;
+}

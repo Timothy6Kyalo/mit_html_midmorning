@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    label{
+      font-family: KacstNaskh;
+      font-size: 19px;
+      color: burlywood;
+    }
+    input{
+      font-size: 15px;
+      font-family: KacstNaskh;
+    }
+    form{
+      box-sizing: border-box;
+      width: 35%;
+      height: 400px;
+      margin: 43px;
+      border: teal solid 3px;
+      background: teal;
+    }
+    body{
+      background: khaki;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration</title>
+</head>
+<body>
+<h2>eMobilis Mid-Morning Class</h2>
+<form action="tables.html" method="post">
+  <label for="Name">Full Names</label><br>
+  <input type="text" id="Name" placeholder="Enter Full Name"><br>
+  <label for="email">Email Address</label><br>
+  <input type="email" id="email" placeholder="Enter Email"><br>
+  <label for="sim">phone Number</label><br>
+  <input type="text" id="sim" placeholder="EnterPhoneNumber"><br>
+  <label for="dor">Date of Registration</label><br>
+  <input type="date" id="dor"><br>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="gender">
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gender"><br>
+  <label for="pic">Profile Picture</label><br>
+  <input type="file" id="pic"><br>
+  <label for="">Courses</label><br>
+  <select name="course" id="Course">
+    <option value="Python">Python</option>
+    <option value="javascript">JavaScript</option>
+    <option value="php">PhP</option>
+    <option value="java">Java</option>
+    <option value="android">Android</option>
+  </select><br>
+  <label for="pass">Password</label><br>
+  <input type="text" id="pass" placeholder="Enter Password"><br>
+  <input type="submit" value="Register"><br>
+</form>
+
+</body>
+</html>
